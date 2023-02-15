@@ -3,8 +3,7 @@ import React from 'react'
 const Data = () => {
     return (
         <div className="home__data">
-            <h1 className="home__title">Koushik Roy
-                <svg
+            <h1 className="home__title">Koushik Roy <svg
                     width="36"
                     height="36"
                     viewBox="0 0 48 48"
@@ -57,7 +56,7 @@ const Data = () => {
 
             <h3 className="home__subtitle">Unity Developer</h3>
 
-            <p className="home__description">I am Unity Developer from New Delhi</p>
+            {/* <p className="home__description">I am Unity Developer from New Delhi</p> */}
             <a href="#contact" className="button button--flex">
                 Say Hello
                 <svg
