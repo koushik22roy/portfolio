@@ -7,10 +7,10 @@ import ScrollDown from "./ScrollDown";
 const Home = () => {
     return (
         <section className="home section" id="home">
-            <div className="home__container container grid">
-                <div className="home__content grid">
-                    <Socials />
+            <div className="home__container container "> {/* grid */}
+                <div className="home__content ">
                     <div className="home__img"></div>
+                    <Socials />
                     <Data />
                 </div>
                 <ScrollDown />
