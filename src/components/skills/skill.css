@@ -50,6 +50,10 @@
     font-size: var(--tiny-font-size);
 }
 
+.skills__container{
+    display: flex;
+}
+
 @media screen and (max-width: 992px) {
     .skills__container {
         grid-template-columns: max-content;

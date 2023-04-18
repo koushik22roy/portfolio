@@ -23,9 +23,9 @@ const Footer = () => {
 
         <div className="footer__social">
           <a href="https://www.linkedin.com/in/koushik22roy/" className="footer__social-link" target='_blank'><i class="bx bxl-linkedin"></i></a>
-          <a href="https://github.com/" className="footer__social-link" target='_blank'><i class="bx bxl-github"></i></a>
+          <a href="https://github.com/koushik22ro" className="footer__social-link" target='_blank'><i class="bx bxl-github"></i></a>
           <a href="https://www.instagram.com/gama16r/" className="footer__social-link" target='_blank'><i class="bx bxl-instagram"></i></a>
-          <a href="https://www.youtube.com/channel/UC5RZjjCN-meceDFWAaeefrw" className="footer__social-link" target='_blank'><i class="bx bxl-twitter"></i></a>
+          <a href="https://twitter.com/gama16r" className="footer__social-link" target='_blank'><i class="bx bxl-twitter"></i></a>
           <a href="https://www.youtube.com/channel/UC5RZjjCN-meceDFWAaeefrw" className="footer__social-link" target='_blank'><i class="bx bxl-youtube"></i></a>
         </div>
 
