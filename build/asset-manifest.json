@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.62c663aa.css",
+    "main.js": "/portfolio/static/js/main.f0b8c053.js",
+    "static/media/profile2.png": "/portfolio/static/media/profile2.f5991f138e8d92108b95.png",
+    "static/media/profile.png": "/portfolio/static/media/profile.37635ba93a1cce5e65c4.png",
+    "static/media/KoushikRoy.pdf": "/portfolio/static/media/KoushikRoy.a1c98fcc060029997efe.pdf",
+    "static/media/work2.jpg": "/portfolio/static/media/work2.e52a0c2981a6c11ba468.jpg",
+    "static/media/work4.jpg": "/portfolio/static/media/work4.aee985961b648f4df1f2.jpg",
+    "static/media/work5.jpg": "/portfolio/static/media/work5.094ec4a2224db8908873.jpg",
+    "static/media/work1.jpg": "/portfolio/static/media/work1.321b4ae3bf404acdfdc6.jpg",
+    "static/media/work3.jpg": "/portfolio/static/media/work3.135e9065694bc13dc31d.jpg",
+    "index.html": "/portfolio/index.html",
+    "main.62c663aa.css.map": "/portfolio/static/css/main.62c663aa.css.map",
+    "main.f0b8c053.js.map": "/portfolio/static/js/main.f0b8c053.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.62c663aa.css",
+    "static/js/main.f0b8c053.js"
+  ]
+}
