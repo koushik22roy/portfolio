@@ -33,7 +33,7 @@ const Works = () => {
               onClick={(e) => {
                 handleClick(e, index);
               }}
-              className={`${active === index ? "active-work" : ""}work__item`}
+              className={`${active === index ? "" : "active-work"}work__item`}
               key={index}
             >
               {item.name}
@@ -44,7 +44,7 @@ const Works = () => {
 
       <div className="work__container container grid">
         {projects.map((item) => {
-          return <Workitems item={item} key={item.id} />;
+          return <Workitems item={item} /* key={item.id} */ />;
         })}
       </div>
     </div>

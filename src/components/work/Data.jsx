@@ -1,55 +1,93 @@
-import Work1 from "../../assets/work1.jpg";
-import Work2 from "../../assets/work2.jpg";
-import Work3 from "../../assets/work3.jpg";
-import Work4 from "../../assets/work4.jpg";
-import Work5 from "../../assets/work5.jpg";
+import IFB from "../../assets/ProjectPhotos/IFBWashingMachine.png";
+import Inhaler from "../../assets/ProjectPhotos/Inhaler.png";
+import Sofa from "../../assets/ProjectPhotos/SofaAR.png";
+import Days from '../../assets/ProjectPhotos/thousanddays.png';
+import photoBooth from '../../assets/ProjectPhotos/photoBooth.png'
+import race from '../../assets/ProjectPhotos/racing.png';
+import GIZ from '../../assets/ProjectPhotos/giz.png';
+import FALL from '../../assets/ProjectPhotos/fallboi.png';
 
 
 export const projectsData = [
-    {
-      id: 1,
-      image: Work1,
-      title: "Web design",
-      category: "web",
-    },
-    {
-      id: 2,
-      image: Work2,
-      title: "App movil",
-      category: "app",
-    },
-    {
-      id: 3,
-      image: Work3,
-      title: "Brand design",
-      category: "design",
-    },
-    {
-      id: 4,
-      image: Work4,
-      title: "App movil",
-      category: "app",
-    },
-    {
-      id: 5,
-      image: Work5,
-      title: "Web design",
-      category: "web",
-    },
-  ];
-  
+  {
+    image: FALL,
+    title: "FALL BOI",
+    description: "",
+    category: "MOBILE",
+    videoLink: "",
+  },
+  {
+    // id: 1,
+    image: Days,
+    title: "PCI Thousand Days",
+    description: "",
+    category: "app",
+    videoLink: "",
+  },
+  {
+    // id: 2,
+    image: photoBooth,
+    title: "Goa Photo Booth",
+    description: "",
+    category: "app",
+    videoLink: "",
+  },
+  {
+    // id: 3,
+    image: Inhaler,
+    title: "Inhaler AR",
+    description: "",
+    category: "AR",
+    videoLink: "",
+  },
+  {
+    // id: 4,
+    image: IFB,
+    title: "Washing Machine IFB AR",
+    description: "",
+    category: "AR",
+    videoLink: "",
+  },
+  {
+    // id: 5,
+    image: Sofa,
+    title: "Sofa AR",
+    description: "",
+    category: "AR",
+    videoLink: "",
+  },
+  {
+    // id: 6,
+    image: GIZ,
+    title: "GIZ Games",
+    description: "",
+    category: "PC",
+    videoLink: "",
+  },
+  {
+    // id: 7,
+    image: race,
+    title: "Voltaren Racing",
+    description: "",
+    category: "PC",
+    videoLink: "",
+  },
+];
 
 export const projectsNav = [
-    {
-        name:"all",
-    },
-    {
-        name:"web",
-    },
-    {
-        name:"app",
-    },
-    {
-        name:"design",
-    },
+  {
+      name:"ALL",
+  },
+  {
+    name: "AR",
+  },
+  {
+    name: "APP",
+  },
+  {
+    name: "PC",
+  },
+  {
+    name: "MOBILE",
+  },
 ];

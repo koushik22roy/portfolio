@@ -1,6 +1,6 @@
 .footer {
     background-color: var(--container-color);
-    border-top: 1px solid rgba(0, 0, 0, 0.2);
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
 }
 
 .footer__container {
@@ -18,7 +18,7 @@
 }
 
 .footer__link:hover {
-    color: var(--title-color-dark);
+    color: var(--container-color);
 }
 
 .footer__list {
@@ -35,8 +35,8 @@
 }
 
 .footer__social-link {
-    background-color: var(--title-color);
-    color: var(--container-color);
+    /* background-color: var(--title-color); */
+    color: var(--title-color-dark);
     font-size: 1.25rem;
     padding: 0.4rem;
     border-radius: .5rem;
@@ -44,7 +44,7 @@
 }
 
 .footer__social-link:hover {
-    background-color: var(--title-color-dark);
+    background-color: var(--container-color);
 }
 
 .footer__copy{
@@ -54,3 +54,7 @@
     text-align: center;
     font-size: var(--smaller-font-size);
 }
+
+/* .bx{
+    background-color: var(--title-color);
+} */

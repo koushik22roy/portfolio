@@ -11,8 +11,9 @@
 }
 
 .scrollup__icon {
-    font-size: 1.5rem;
+    font-size: 2rem;
     color: var(--container-color);
+    background-color: var(--title-color);
 }
 
 .scrollup:hover {

@@ -11,7 +11,7 @@ function Frontend() {
                         <i class='bx bx-badge-check'></i>
                         <div>
                             <h3 className="skills__name">Unity</h3>
-                            <span className="skills__level">Intermediate</span>
+                            {/* <span className="skills__level">Intermediate</span> */}
                         </div>
                     </div>
 
@@ -19,7 +19,7 @@ function Frontend() {
                         <i class='bx bx-badge-check'></i>
                         <div>
                             <h3 className="skills__name">C#</h3>
-                            <span className="skills__level">Intermediate</span>
+                            {/* <span className="skills__level">Intermediate</span> */}
                         </div>
                     </div>
 
@@ -27,7 +27,15 @@ function Frontend() {
                         <i class='bx bx-badge-check'></i>
                         <div>
                             <h3 className="skills__name">Git</h3>
-                            <span className="skills__level">Intermediate</span>
+                            {/* <span className="skills__level">Intermediate</span> */}
+                        </div>
+                    </div>
+
+                    <div className="skills__data">
+                        <i class='bx bx-badge-check'></i>
+                        <div>
+                            <h3 className="skills__name">Ads Mediation</h3>
+                            {/* <span className="skills__level">Intermediate</span> */}
                         </div>
                     </div>
                 </div>
@@ -37,8 +45,8 @@ function Frontend() {
                     <div className="skills__data">
                         <i class='bx bx-badge-check'></i>
                         <div>
-                            <h3 className="skills__name">Spark AR</h3>
-                            <span className="skills__level">Intermediate</span>
+                            <h3 className="skills__name">Meta Spark AR</h3>
+                            {/* <span className="skills__level">Intermediate</span> */}
                         </div>
                     </div>
 
@@ -46,7 +54,7 @@ function Frontend() {
                         <i class='bx bx-badge-check'></i>
                         <div>
                             <h3 className="skills__name">AR Foundation</h3>
-                            <span className="skills__level">Intermediate</span>
+                            {/* <span className="skills__level">Intermediate</span> */}
                         </div>
                     </div>
 
@@ -54,7 +62,14 @@ function Frontend() {
                         <i class='bx bx-badge-check'></i>
                         <div>
                             <h3 className="skills__name">Vuforia</h3>
-                            <span className="skills__level">Intermediate</span>
+                            {/* <span className="skills__level">Intermediate</span> */}
+                        </div>
+                    </div>
+                    <div className="skills__data">
+                        <i class='bx bx-badge-check'></i>
+                        <div>
+                            <h3 className="skills__name">Firebase</h3>
+                            {/* <span className="skills__level">Intermediate</span> */}
                         </div>
                     </div>
                 </div>

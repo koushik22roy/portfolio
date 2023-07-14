@@ -8,9 +8,9 @@
 
 .work__item {
   cursor: pointer;
-  color: var(--title-color);
+  color: var(--container-color);
   padding: 0.25rem 0.75rem;
-  /* background-color: black; */
+  background-color: rgb(255, 255, 255);
   font-weight: var(--font-medium);
   border-radius: 0.5rem;
   text-transform: capitalize;
@@ -22,16 +22,20 @@
 }
 
 .work__container {
-  grid-template-columns: repeat(2, max-content);
+  grid-template-columns: repeat(3, max-content);
   gap: 3rem;
   justify-content: center;
+  /* align-items: center; */
 }
 
 .work__card {
   background-color: var(--container-color);
-  border: 1px solid rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.1);
   padding: 1.25rem;
   border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  width: 20rem;
 }
 
 .work__img {
@@ -41,9 +45,15 @@
 }
 
 .work__title {
-  font-size: var(--normal-font-size);
+  font-size: var(--h3-font-size);
   font-weight: var(--font-medium);
   margin-bottom: var(--mb-0-5);
+}
+
+.work__description {
+  font-size: var(--small-font-size);
+  color: var(--text-color);
+  margin-bottom: var(--mb-1);
 }
 
 .work__button {
@@ -64,7 +74,7 @@
 }
 
 .active-work {
-  background-color: var(--title-color);
+  background-color: white;
   color: var(--container-color);
 }
 
@@ -88,7 +98,7 @@
 
 @media screen and (max-width: 768px) {
   .work__container {
-    grid-template-columns: max-content;
+    grid-template-columns: repeat(2, max-content);
   }
 }
 

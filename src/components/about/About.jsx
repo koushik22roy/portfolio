@@ -1,6 +1,6 @@
 import React from "react";
 import "./about.css";
-import AboutImg from "../../assets/profile.png";
+// import AboutImg from "../../assets/profile.png";
 import CV from "../../assets/KoushikRoy.pdf";
 import Info from "./Info";
 
@@ -11,13 +11,13 @@ function About() {
       <span className="section__subtitle">My Introduction</span>
 
       <div className="about__container container grid">
-        <img src={AboutImg} alt="" className="about__img" />
+        {/* <img src={AboutImg} alt="" className="about__img" /> */}
 
         <div className="about__data">
           <Info />
 
           <p className="about__description">
-            As a Unity and AR Developer with over 1 year of experience, I am
+            As a Unity Games and AR Developer with over 1 year of experience, I am
             passionate about creating innovative and engaging experiences that
             push the boundaries of technology. I specialize in using Unity to
             build immersive AR experiences that captivate and engage users. I am

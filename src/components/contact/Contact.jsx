@@ -29,7 +29,7 @@ function Contact() {
                             <h3 className="contact__card-title">Email</h3>
                             <span className="contact__card-data">koushik22work@gmail.com</span>
 
-                            <a href="koushik22work@gmail.com" className="contact__button">
+                            <a href="mailto:your-koushik22work@gmail.com" className="contact__button">
                                 Write Me <i className="bx bx-right-arrow-alt contact__button-icon"></i>
                             </a>
                         </div>
@@ -40,7 +40,7 @@ function Contact() {
 
                     <form ref={form} onSubmit={sendEmail} action="" className="contact__form">
                         <div className="contact__form-div">
-                            <label htmlFor="" className="contact__form-tag">Name</label>
+                            <label  className="contact__form-tag">Name</label>
                             <input type="text" name='name' className='contact__form-input' placeholder='Insert your name' />
                         </div>
 
