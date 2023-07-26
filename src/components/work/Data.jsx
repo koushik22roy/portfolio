@@ -7,7 +7,6 @@ import race from '../../assets/ProjectPhotos/racing.png';
 import GIZ from '../../assets/ProjectPhotos/giz.png';
 import FALL from '../../assets/ProjectPhotos/fallboi.png';
 
-
 export const projectsData = [
   {
     image: FALL,
@@ -76,7 +75,7 @@ export const projectsData = [
 
 export const projectsNav = [
   {
-      name:"ALL",
+    name:"ALL",
   },
   {
     name: "AR",

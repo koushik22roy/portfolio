@@ -104,7 +104,10 @@
 
 @media screen and (max-width: 576px) {
   .work__container {
+    display: grid;
     grid-template-columns: 1fr;
+    justify-items: center; 
+    align-items: center; 
   }
 
   .work__img {
