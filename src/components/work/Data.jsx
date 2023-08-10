@@ -6,8 +6,33 @@ import photoBooth from '../../assets/ProjectPhotos/photoBooth.png'
 import race from '../../assets/ProjectPhotos/racing.png';
 import GIZ from '../../assets/ProjectPhotos/giz.png';
 import FALL from '../../assets/ProjectPhotos/fallboi.png';
+import Cherry from '../../assets/ProjectPhotos/CherryJumper.png';
+import multiPlayer from '../../assets/ProjectPhotos/Multiplayer.png';
+import Kitchen from '../../assets/ProjectPhotos/Kitchen.png';
+
 
 export const projectsData = [
+  {
+    image: Kitchen,
+    title: "Kitchen Time 3D",
+    description: "",
+    category: "PC",
+    videoLink: "",
+  },
+  {
+    image: multiPlayer,
+    title: "Friends Shooter Multiplayer 3D",
+    description: "",
+    category: "PC",
+    videoLink: "",
+  },
+  {
+    image: Cherry,
+    title: "Cherry Jumper",
+    description: "",
+    category: "MOBILE",
+    videoLink: "",
+  },
   {
     image: FALL,
     title: "FALL BOI",
