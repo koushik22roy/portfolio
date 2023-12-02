@@ -5,8 +5,6 @@ import Days from '../../assets/ProjectPhotos/thousanddays.png';
 import photoBooth from '../../assets/ProjectPhotos/photoBooth.png'
 import race from '../../assets/ProjectPhotos/racing.png';
 import GIZ from '../../assets/ProjectPhotos/giz.png';
-import FALL from '../../assets/ProjectPhotos/fallboi.png';
-import Cherry from '../../assets/ProjectPhotos/CherryJumper.png';
 import multiPlayer from '../../assets/ProjectPhotos/Multiplayer.png';
 import Kitchen from '../../assets/ProjectPhotos/Kitchen.png';
 
@@ -27,21 +25,6 @@ export const projectsData = [
     videoLink: "",
   },
   {
-    image: Cherry,
-    title: "Cherry Jumper",
-    description: "",
-    category: "MOBILE",
-    videoLink: "",
-  },
-  {
-    image: FALL,
-    title: "FALL BOI",
-    description: "",
-    category: "MOBILE",
-    videoLink: "",
-  },
-  {
-    // id: 1,
     image: Days,
     title: "PCI Thousand Days",
     description: "",
@@ -49,7 +32,6 @@ export const projectsData = [
     videoLink: "",
   },
   {
-    // id: 2,
     image: photoBooth,
     title: "Goa Photo Booth",
     description: "",
@@ -57,7 +39,6 @@ export const projectsData = [
     videoLink: "",
   },
   {
-    // id: 3,
     image: Inhaler,
     title: "Inhaler AR",
     description: "",
@@ -65,7 +46,6 @@ export const projectsData = [
     videoLink: "",
   },
   {
-    // id: 4,
     image: IFB,
     title: "Washing Machine IFB AR",
     description: "",
@@ -73,7 +53,6 @@ export const projectsData = [
     videoLink: "",
   },
   {
-    // id: 5,
     image: Sofa,
     title: "Sofa AR",
     description: "",
@@ -81,7 +60,6 @@ export const projectsData = [
     videoLink: "",
   },
   {
-    // id: 6,
     image: GIZ,
     title: "GIZ Games",
     description: "",
@@ -89,7 +67,6 @@ export const projectsData = [
     videoLink: "",
   },
   {
-    // id: 7,
     image: race,
     title: "Voltaren Racing",
     description: "",

@@ -1,98 +1,38 @@
 import React from 'react'
-
+import skillsData from "./skillsData.json"
 function Frontend() {
-    return (
-        <div className="skills__content">
-            {/* <h3 className="skills__title">Tools</h3> */}
+    const splitSkills = Math.ceil(skillsData.skills.length / 2);
+  const firstColumn = skillsData.skills.slice(0, splitSkills);
+  const secondColumn = skillsData.skills.slice(splitSkills);
 
-            <div className="skills__box">
-                <div className="skills__group">
-                    <div className="skills__data">
-                        <i className='bx bx-badge-check'></i>
-                        <div>
-                            <h3 className="skills__name">Unity</h3>
-                            {/* <span className="skills__level">Intermediate</span> */}
-                        </div>
-                    </div>
-
-                    <div className="skills__data">
-                        <i className='bx bx-badge-check'></i>
-                        <div>
-                            <h3 className="skills__name">C#</h3>
-                            {/* <span className="skills__level">Intermediate</span> */}
-                        </div>
-                    </div>
-
-                    <div className="skills__data">
-                        <i className='bx bx-badge-check'></i>
-                        <div>
-                            <h3 className="skills__name">JavaScript</h3>
-                            {/* <span className="skills__level">Intermediate</span> */}
-                        </div>
-                    </div>
-
-                    <div className="skills__data">
-                        <i className='bx bx-badge-check'></i>
-                        <div>
-                            <h3 className="skills__name">Git</h3>
-                            {/* <span className="skills__level">Intermediate</span> */}
-                        </div>
-                    </div>
-
-                    <div className="skills__data">
-                        <i className='bx bx-badge-check'></i>
-                        <div>
-                            <h3 className="skills__name">Ads Mediation</h3>
-                            {/* <span className="skills__level">Intermediate</span> */}
-                        </div>
-                    </div>
-                </div>
-
-
-                <div className="skills__group">
-                    <div className="skills__data">
-                        <i className='bx bx-badge-check'></i>
-                        <div>
-                            <h3 className="skills__name">Meta Spark AR</h3>
-                            {/* <span className="skills__level">Intermediate</span> */}
-                        </div>
-                    </div>
-
-                    <div className="skills__data">
-                        <i className='bx bx-badge-check'></i>
-                        <div>
-                            <h3 className="skills__name">AR Foundation</h3>
-                            {/* <span className="skills__level">Intermediate</span> */}
-                        </div>
-                    </div>
-
-                    <div className="skills__data">
-                        <i className='bx bx-badge-check'></i>
-                        <div>
-                            <h3 className="skills__name">Vuforia</h3>
-                            {/* <span className="skills__level">Intermediate</span> */}
-                        </div>
-                    </div>
-                    <div className="skills__data">
-                        <i className='bx bx-badge-check'></i>
-                        <div>
-                            <h3 className="skills__name">Firebase</h3>
-                            {/* <span className="skills__level">Intermediate</span> */}
-                        </div>
-                    </div>
-                    <div className="skills__data">
-                        <i className='bx bx-badge-check'></i>
-                        <div>
-                            <h3 className="skills__name">Photon</h3>
-                            {/* <span className="skills__level">Intermediate</span> */}
-                        </div>
-                    </div>
-                </div>
-
-                
+  return (
+    <div className="skills__content">
+      <div className="skills__box">
+        <div className="skills__group">
+          {firstColumn.map((skill, index) => (
+            <div className="skills__data" key={index}>
+              <i className={skill.icon}></i>
+              <div>
+                <h3 className="skills__name">{skill.name}</h3>
+                {/* <span className="skills__level">{skill.level}</span> */}
+              </div>
             </div>
+          ))}
         </div>
-    )
+        <div className="skills__group">
+          {secondColumn.map((skill, index) => (
+            <div className="skills__data" key={index}>
+              <i className={skill.icon}></i>
+              <div>
+                <h3 className="skills__name">{skill.name}</h3>
+                {/* <span className="skills__level">{skill.level}</span> */}
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+    </div>
+  );
 }
 
 export default Frontend
